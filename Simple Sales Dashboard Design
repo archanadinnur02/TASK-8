@@ -1,0 +1,68 @@
+Tool Used: Power BI
+📁 Dataset: Superstore_Sales.csv
+Columns: Order Date, Region, Category, Sales, Profit
+
+🔧 Steps Taken
+Imported Superstore_Sales.csv into Power BI
+
+Created a new column for "Month-Year" using:
+Month-Year = FORMAT([Order Date], "MMM-YYYY")
+
+Built 3 visuals:
+
+📈 Line Chart → Sales by Month-Year
+
+📊 Bar Chart → Sales by Region
+
+🍩 Donut Chart → Sales by Category
+
+Added Slicer for Region
+
+Used color formatting to highlight highest sales categories/regions
+
+📸 Dashboard Screenshot or PDF
+(Add this manually in GitHub repo:)
+File: Sales_Dashboard_Screenshot.pdf (or .png)
+
+📝 3–4 Key Insights (Insights.txt)
+markdown
+1. The West region consistently had the highest monthly sales across the year.
+2. The Technology category showed the strongest performance in overall sales.
+3. Sales peaked in November, likely due to seasonal promotions (Black Friday).
+4. The Central region had the lowest total sales but relatively higher profit margins.
+❓ Interview Q&A
+Q: What does a dashboard provide in data analysis?
+
+✅ Answer:
+A dashboard provides an interactive, visual summary of data to help business users monitor performance, identify trends, and make data-driven decisions quickly.
+
+📂 GitHub Repo Structure Example
+Superstore_Sales_Dashboard/
+├── Superstore_Sales.csv
+├── PowerBI_Dashboard.pbix
+├── Sales_Dashboard_Screenshot.pdf
+├── Insights.txt
+└── README.md
+README.md example content:
+
+markdown
+# Superstore Sales Dashboard (Power BI)
+
+## 📊 Dashboard Overview
+This Power BI dashboard displays Superstore sales data by Month, Region, and Product Category.
+
+## 📁 Files Included
+- `Superstore_Sales.csv` – Dataset
+- `PowerBI_Dashboard.pbix` – Dashboard file
+- `Sales_Dashboard_Screenshot.pdf` – Dashboard preview
+- `Insights.txt` – Summary insights
+
+## 🔍 Key Insights
+- West region had the highest sales.
+- Technology was the top-performing category.
+- November had the highest monthly sales.
+
+## 🎯 Purpose
+To showcase skills in dashboard creation, business insight generation, and data visualization.
+Let me know if you'd like help generating the visuals, exporting the PBIX/PDF, or writing the full README for GitHub.
+
